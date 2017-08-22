@@ -8,11 +8,9 @@ import java.io.Serializable;
 /**
  * Created by ShannonAJ on 2017/7/6.
  */
-public class BaseCommonClass implements Serializable{
+public class BaseObject implements Serializable{
 
     private static final long serialVersionUID = 4400763195494358786L;
 
-    private static final Logger LOG = LoggerFactory.getLogger(BaseCommonClass.class);
-
-
+    private static final Logger LOG = LoggerFactory.getLogger(BaseObject.class);
 }
